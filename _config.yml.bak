@@ -97,7 +97,7 @@ author:
   avatar           : "/assets/images/profile/20200131_215933_191.jpg" # path of avatar image, e.g. 
   bio              : "I will be a **devops engineer**"
   location         : "Seoul, Korea"
-  email            : "dhk5646@naver.com"
+  email            : dhk5646@naver.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
