@@ -19,9 +19,9 @@ locale                   : "ko-KR"
 title                    : "Welcom to AKS"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Aksist"
-description              : "Aks blog"
-url                      : "https://dhk5646.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "Your Name"
+description              : "An amazing website."
+url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -30,9 +30,9 @@ masthead_title           : # overrides the website title displayed in the masthe
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : "https-dhk5646-github-io" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -93,11 +93,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Aks111"
+  name             : "Aks"
   avatar           : "/assets/images/profile/20200131_215933_191.jpg" # path of avatar image, e.g. 
   bio              : "I will be a **devops engineer**"
   location         : "Seoul, Korea"
-  email            : "dhk5646@naver.com"
+  email            : dhk5646@naver.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -279,10 +279,3 @@ defaults:
       comments: # true
       share: true
       related: true
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
