@@ -1,6 +1,6 @@
 ---
 title: "여행"
-#layout: travel
+layout: posts
 permalink: /tra/
 author_profile: true
 ---
