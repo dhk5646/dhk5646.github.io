@@ -16,9 +16,9 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "Welcom to Aks"
+title                    : "A.K.S."
 title_separator          : "-"
-subtitle                 : "by 김동현" # site tagline that appears below site title in masthead
+#subtitle                 : "by 김동현" # site tagline that appears below site title in masthead
 name                     : "김동현"
 description              : "건강하게"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -93,9 +93,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Aks"
+  name             : "donghyun kim"
   avatar           : "/assets/images/profile/20200131_215933_191.png" # path of avatar image, e.g. 
-  bio              : "추억을 **소중히**"
+  bio              : "평일에 **운동**하고 주말에 **여행**다니는 <br> **웹 개발자**"
   location         : "Seoul, Korea"
   email            : 
   links:
@@ -104,19 +104,22 @@ author:
       url: "mailto:dhk5646@naver.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      url: "https://dhk5646.github.io/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/dhk5646/"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/dhk5646/"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://www.facebook.com/dhk5646/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://www.instagram.com/donghyun5646/"
+    - label: "Youtube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/channel/UCseWioJvkbBzWRBY6GG_76g"
 
 # Site Footer
 footer:
