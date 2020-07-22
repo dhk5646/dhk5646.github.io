@@ -3,7 +3,7 @@ title: "여행"
 permalink: /tra/
 layout: category
 author_profile: true
-tra_tag: ["jeju"]
+tra_tag: ["mongolia"]
 ---
 {% include group-by-array collection=site.posts field="tags" %}
 
