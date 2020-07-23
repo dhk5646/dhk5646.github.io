@@ -1,0 +1,101 @@
+---
+title: "Windows10 원격데스크톱 연결하기"
+categories: dev
+tags: window
+toc: true
+---
+
+**원격데스크톱은 Windows10 pro 이상에서만 지원이 가능하며 그 이하 버전에서는 별도의 설정이 필요함**
+
+## Windows 10 원격데스크톱 활성화 하기
+
+**1. 시작-> 설정(톱니바퀴 아이콘) -> 시스템 클릭**
+<img src="/assets/images/dev/window/2020-07-23_204247.jpg">
+
+**2. 원격데스크톱 -> 원격데스크톱활성화 켬-> 확인**
+<img src="/assets/images/dev/window/2020-07-23_204641.jpg">
+
+## 원격데스크톱 포트변경 하기
+
+원격 데스크톱의 기본 포트는 **3389** 로서 많이 알려져 있기 때문에 기본 포트 사용은 보안상 위험하다 <br>
+
+원격 데스크톱을 사용시 최소한의 방어를 위하여 포트를 변경하는것이 좋다.  <br>
+
+**1. 윈도우키 + R -> regedit 입력**
+<img src="/assets/images/dev/window/2020-07-23_205840.jpg">
+
+**2. #HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp 입력 -> PortNumber 클릭 -> 10진수 클릭 -> 원하는 포트(40022) 입력 후 확인**
+
+<img src="/assets/images/dev/window/2020-07-23_210228.jpg">
+
+## 원격데스크톱 신규 포트에 대해 방화벽 오픈하기
+
+변경된 포트의 경우 방화벽에 등록되어 있지 않기 때문에 접속이 되지 않는다. <br>
+
+신규 방화벽 규칙을 생성한다.
+
+**1. 윈도우 검색기에서 제어판 검색 후 클릭**
+
+<img src="/assets/images/dev/window/2020-07-23_211334.jpg">
+
+**2. 시스템 및 보안 클릭**
+
+<img src="/assets/images/dev/window/2020-07-23_211335.jpg">
+
+**3. Windows Defender 방화벽 클릭**
+
+<img src="/assets/images/dev/window/2020-07-23_211336.jpg">
+
+**4. 고급설정 클릭**
+
+<img src="/assets/images/dev/window/2020-07-23_211337.jpg">
+
+**5. 인바운드 규칙 클릭 -> 새 규칙 클릭**
+
+<img src="/assets/images/dev/window/2020-07-23_211648.jpg">
+
+**6. 포트 선택 후 다음**
+
+<img src="/assets/images/dev/window/2020-07-23_211940.jpg">
+
+**7. TCP 선택 -> 2)에서 입력한 포트번호 입력 후 다음**
+
+<img src="/assets/images/dev/window/2020-07-23_212131.jpg">
+
+**8. 연결허용 선택 후 다음**
+
+<img src="/assets/images/dev/window/2020-07-23_212319.jpg">
+
+**9. 도메인, 개인, 공용 체크박스 선택 후 다음**
+
+<img src="/assets/images/dev/window/2020-07-23_212356.jpg">
+
+**10. 이름 및 설명을 알아볼 수 있게 입력 후 마침**
+
+<img src="/assets/images/dev/window/2020-07-23_212642.jpg">
+
+**11. 방화벽 등록 확인**
+
+<img src="/assets/images/dev/window/2020-07-23_213149.jpg">
+
+## 원격데스크톱 다시 시작 하기
+
+변경된 포트로 접속을 하기 위해서는 원격 데스크톱 서비스를 재 시작 해야 한다.
+
+**1. 윈도우 검색기에서 "서비스" 검색 후 클릭**
+
+<img src="/assets/images/dev/window/2020-07-23_213412.jpg">
+
+**2. Remote Desktop Services 우 클릭 -> 다시 시작 클릭**
+
+<img src="/assets/images/dev/window/2020-07-23_213726.jpg">
+
+## 원격데스크톱 접속 확인 하기
+
+**1. 윈도우 검색기에서 원격 데스크톱 연결 검색 후 클릭**
+
+<img src="/assets/images/dev/window/2020-07-23_214634.jpg">
+
+**2. IP정보:포트정보 입력 -> ID / PWD 입력 후 접속**
+
+<img src="/assets/images/dev/window/2020-07-23_214745.jpg">

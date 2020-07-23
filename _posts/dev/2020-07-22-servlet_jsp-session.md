@@ -1,7 +1,7 @@
 ---
 title: "세션(Session)"
 categories: dev
-tags: servlet&jsp
+tags: servlet_jsp
 toc: true
 ---
 

@@ -3,7 +3,7 @@ title: "개발"
 permalink: /dev/
 layout: category
 author_profile: true
-dev_tag: ["java", "linux", "servlet&jsp"]
+dev_tag: ["java", "linux", "servlet_jsp", "window"]
 ---
 {% include group-by-array collection=site.posts field="tags" %}
 
