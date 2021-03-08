@@ -8,7 +8,26 @@ main:
     url: /year-archive/
   - title: "Categories"
     url: /categories/
-#  - title: "Tags"
-#    url: /tags/    
+  - title: "Tags"
+    url: /tags/    
 #  - title: "Collections"
 #    url: /collection-archive/
+
+
+develop:
+  - title: Language
+    children:
+      - title: "Java"
+        url: /tags/#java
+      - title: "Javascript"
+        url: /tags/#javascript
+      - title: "Jsp"
+        url: /tags/#jsp
+  - title: software
+    children:
+      - title: "tomcat"
+        url: /tags/#tomcat
+  - title: Server
+    children:
+      - title: "Linux"
+        url: /tags/#linux                            
