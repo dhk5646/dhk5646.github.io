@@ -1,0 +1,54 @@
+---
+title: "[Linux] SSH를 이용한 암호없이 로그인 설정"
+categories: Server
+tags: Linux
+toc: true
+---
+
+## 사용목적
+Jenkins를 이용하여 A 서버에서 B 서버로 소스배포를 시도하기 위한 목적
+
+
+## 설정방법 
+
+1. A서버에서 공개키 생성 <br> 
+**$ ssh-keygen -t rsa** <br>
+id_rsa: 비밀키  <br>
+id_rsa.pub: 공개키 <br>
+(생성시 물어보는 질문에 계속 엔터키를 누르면 홈 폴더의 .ssh폴더에 공개키와 비밀키 파일이 생성됨) <br>
+
+2. A서버 공개키 **id_rsa.pub** 정보를 B서버 홈 폴더 .ssh **authorized_keys** 파일내용에 저장. <br>
+(만약 서버에 이 파일이 없다면 새로 생성한 뒤 추가) <br>
+
+3. 파일 권한 수정 (상황에 따라 생략 가능)<br>
+$ sudo chmod 0700 ~/.ssh <br>
+$ sudo chmod 600 ~/.ssh/authorized_keys <br>
+(데몬 설정파일 /etc/ssh/sshd_config을 열어 아래 항목들의 주석을 제거하거나 없는 경우 추가) <br>
+RSAAuthentication       yes <br>
+PubkeyAuthentication    yes <br>
+AuthorizedKeysFile      .ssh/authorized_keys <br>
+PasswordAuthentication  no <br>
+
+4. sshd 데몬 재구동 <br>
+$ sudo service sshd restart <br>
+
+5. 접속 테스트 <br>
+$ ssh host@username <br>
+
+
+
+## 설정 이후 동작원리
+1. 클라이언트에서 비밀키(id_rsa)를 보낸다. 
+2. 서버에서는 클라이언트단에서 공유한 공개키(id_rsa.pub)를 이용하여 비밀키를 해독한다.
+
+
+## 에러 모음
+ssh_exchange_identification: read: Connection reset by peer 발생시 -v 옵션으로 debug 해보아라
+ssh -v wassvc01@ip 'ls -lrt'
+
+
+
+
+
+
+

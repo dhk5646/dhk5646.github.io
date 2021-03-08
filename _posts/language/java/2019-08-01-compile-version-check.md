@@ -1,0 +1,30 @@
+---
+title: "[Java] Java 컴파일 버전 확인 방법"
+categories: Language
+tags: Java
+toc: true
+---
+
+## 자바 버전 불일치
+자바의 버전 불일치로 서버 가동이 안되는 에러가 발생하여 자바의 버전을 확인하는 방법을 기록 한다.
+
+## 명령어
+**javap -verbose "클래스파일명(.class 제외)" | find "version"** 
+
+EX) <br>
+```window
+C:\AksStudio\bin\jdk1.8.0_171\bin>javap -verbose "Comment" | find "version"
+Warning: Binary file Comment contains com.aks.mot.common.annotation.Comment
+  minor version: 0
+  major version: 52
+```
+
+## 자바 버전별 major version
+
+JDK 1.2 -> 46 <br>
+JDK 1.3 -> 47 <br>
+JDK 1.4 -> 48 <br>
+JDK 1.5 -> 49 <br>
+JDK 1.6 -> 50 <br>
+JDK 1.7 -> 51 <br>
+JDK 1.8 -> 52 <br>

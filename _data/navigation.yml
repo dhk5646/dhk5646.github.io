@@ -1,10 +1,14 @@
 # main links
 main:
-  - title: "악스"
+  - title: "About"
     url: /aks/
-  - title: "개발"
-    url: /dev/
-  - title: "운동"
-    url: /exe/
-  - title: "여행"
-    url: /tra/
+  #- title: "Develop"
+  #  url: /dev/
+  - title: "Posts"
+    url: /year-archive/
+  - title: "Categories"
+    url: /categories/
+#  - title: "Tags"
+#    url: /tags/    
+#  - title: "Collections"
+#    url: /collection-archive/

@@ -1,7 +1,7 @@
 ---
-title: "Windows10 원격데스크톱 연결하기"
-categories: dev
-tags: window
+title: "[Window] Windows10 원격데스크톱 연결하기"
+categories: Server
+tags: Window
 toc: true
 ---
 
