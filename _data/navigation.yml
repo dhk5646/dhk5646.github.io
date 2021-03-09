@@ -8,26 +8,22 @@ main:
     url: /year-archive/
   - title: "Categories"
     url: /categories/
-  - title: "Tags"
-    url: /tags/    
+#  - title: "Tags"
+#    url: /tags/    
 #  - title: "Collections"
 #    url: /collection-archive/
 
 
 develop:
-  - title: Language
+  - title: WEB DEVELOP
     children:
       - title: "Java"
-        url: /tags/#java
-      - title: "Javascript"
-        url: /tags/#javascript
-      - title: "Jsp"
-        url: /tags/#jsp
-  - title: software
-    children:
-      - title: "tomcat"
-        url: /tags/#tomcat
-  - title: Server
-    children:
+        url: /categories/#java
+      - title: "JavaScript"
+        url: /categories/#javascript
+      - title: "JSP"
+        url: /categories/#jsp
       - title: "Linux"
-        url: /tags/#linux                            
+        url: /categories/#linux
+      - title: "Window"
+        url: /categories/#window

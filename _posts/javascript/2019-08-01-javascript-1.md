@@ -1,7 +1,7 @@
 ---
-title: "[Javascript] Null 과 Undefined의 차이"
-categories: Language
-tags: Javascript
+title: "[JavaScript] Null 과 Undefined의 차이"
+categories: JavaScript
+tags: JavaScript
 toc: true
 ---
 
@@ -14,7 +14,7 @@ toc: true
 
 
 ## 소스 코드 
-~~~j
+~~~java
 var nullValue = null;
 console.log(nullValue); 
 => null

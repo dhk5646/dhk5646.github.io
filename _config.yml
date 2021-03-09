@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "donghyun kim"
   avatar           : "/assets/images/profile/20200131_215933_191.png" # path of avatar image, e.g. 
-  bio              : "**함께 일하고 싶은 개발자** 김동현"
+  bio              : "**함께 일하고 싶은 개발자**"
   location         : "Seoul, Korea"
   email            : 
   links:
