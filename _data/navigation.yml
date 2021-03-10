@@ -27,3 +27,5 @@ develop:
         url: /categories/#linux
       - title: "Window"
         url: /categories/#window
+      - title: "Git"
+        url: /categories/#git        
