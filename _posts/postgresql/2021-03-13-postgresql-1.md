@@ -1,5 +1,5 @@
 ---
-title: "[PostgreSQL] PostgreSQL 쿼리 모음"
+title: "postgresql query 모음"
 categories: PostgreSQL
 tags: PostgreSQL
 toc: true

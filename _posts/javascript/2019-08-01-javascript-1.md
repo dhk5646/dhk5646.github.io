@@ -1,5 +1,5 @@
 ---
-title: "[JavaScript] Null 과 Undefined의 차이"
+title: "자바스크립트 Null 과 Undefined의 차이"
 categories: JavaScript
 tags: JavaScript
 toc: true

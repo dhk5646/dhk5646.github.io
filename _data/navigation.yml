@@ -15,17 +15,25 @@ main:
 
 
 develop:
-  - title: WEB DEVELOP
+  - title: Skill Stack
     children:
       - title: "Java"
         url: /categories/#java
+      - title: "Spring"
+        url: /categories/#spring  
       - title: "JavaScript"
         url: /categories/#javascript
-      - title: "JSP"
-        url: /categories/#jsp
+      - title: "PostgreSQL"
+        url: /categories/#postgresql
+      - title: "Ngnix"
+        url: /categories/#nginx
+      - title: "Tomcat"
+        url: /categories/#tomcat
+      - title: "Jenkins"
+        url: /categories/#jenkins  
+      - title: "Git"
+        url: /categories/#git
       - title: "Linux"
         url: /categories/#linux
       - title: "Window"
         url: /categories/#window
-      - title: "Git"
-        url: /categories/#git        

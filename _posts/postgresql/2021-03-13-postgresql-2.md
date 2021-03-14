@@ -1,5 +1,5 @@
 ---
-title: "[PostgreSQL] 리오그 작업"
+title: "postgresql 리오그 작업"
 categories: PostgreSQL
 tags: PostgreSQL
 toc: true
