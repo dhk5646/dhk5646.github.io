@@ -105,7 +105,7 @@ java.lang.NullPointerException: null
 
 ## Business Exception의 올바른 방향
 
-### ✔️ Business Exception = 비즈니스 예외 (WARN 레벨)
+### Business Exception = 비즈니스 예외 (WARN 레벨)
 
 ```java
 public class BusinessException extends RuntimeException {
@@ -141,7 +141,7 @@ public class OrderService {
 - 트랜잭션 롤백 여부는 **별도 정책**으로 처리
 - **로그 레벨: WARN**
 
-### ✔️ Exception = 시스템 예외 (ERROR 레벨)
+### Exception = 시스템 예외 (ERROR 레벨)
 
 ```java
 @Service
@@ -191,7 +191,7 @@ public class PaymentService {
 
 ## 환경별 권장 설정
 
-### 🖥️ Local (개발자 로컬 환경)
+### Local (개발자 로컬 환경)
 
 **목적: 디버깅 최우선**
 
@@ -225,7 +225,7 @@ public class PaymentService {
 
 ---
 
-### 🧪 Dev (개발 서버 / 테스트 서버)
+### Dev (개발 서버 / 테스트 서버)
 
 **목적: QA 테스트 + 운영과 유사한 흐름 검증**
 
@@ -286,7 +286,7 @@ public class PaymentService {
 
 ---
 
-### 🚀 Prod (운영 환경)
+### Prod (운영 환경)
 
 **목적: 중요 정보만 남기고 장애 파악 속도 극대화**
 
