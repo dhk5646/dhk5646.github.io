@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "A.K.S."
+title                    : "해피투게더 동구리"
 title_separator          : "-"
 subtitle                 : # "always keep the sense" # site tagline that appears below site title in masthead
-name                     : "김동현"
-description              : "always keep the sense"
+name                     : "동구리"
+description              : "개발자 동구리의 기술 블로그입니다."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -93,11 +93,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "donghyun kim"
-  avatar           : "/assets/images/profile/20200131_215933_191.png" # path of avatar image, e.g. 
+  name             : "동구리"
+  avatar           : "/assets/images/profile/20200131_215933_191.png" # path of avatar image, e.g.
   bio              : "**함께 일하고 싶은 개발자**"
   location         : "Seoul, Korea"
-  email            : 
+  email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -210,7 +210,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 20 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
@@ -292,7 +292,7 @@ defaults:
       toc_label: "목차"
       sidebar:
         nav: "develop"
-      
+
   # _pages
   - scope:
       path: ""
@@ -305,7 +305,7 @@ defaults:
       toc_label: "목차"
       sidebar:
         nav: "develop"
-      
+
  # _portfolio
   - scope:
       path: ""
