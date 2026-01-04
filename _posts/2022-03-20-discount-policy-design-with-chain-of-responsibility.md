@@ -95,12 +95,20 @@ public class ElectricityFeeCalculator {
         
         // 2. 할인 정책 순차 적용
         amount = essentialGuaranteeDiscount.apply(amount);
+        if (amount <= 0) return 0;  // 조기 종료
+        
         amount = under200kwhDiscount.apply(amount);
+        if (amount <= 0) return 0;  // 조기 종료
+        
         amount = familyDiscount.apply(amount);
+        if (amount <= 0) return 0;  // 조기 종료
+        
         amount = welfareDiscount.apply(amount);
+        if (amount <= 0) return 0;  // 조기 종료
+        
         amount = autoTransferDiscount.apply(amount);
         
-        return amount;
+        return Math.max(0, amount);
     }
     
     private int calculateUsageFee(Usage usage) {
@@ -659,7 +667,7 @@ public class DiscountPolicyChain {
 
 ---
 
-## 12. 중요한 결론
+## 11. 중요한 결론
 
 ### 패턴은 목표가 아니라 결과물
 
@@ -689,12 +697,7 @@ public int apply(int amount) {
 
 ---
 
-## 13. 마무리
-
-### 이 설계에서 배운 것
-
-**설계란:**
-- "이 문제의 본질은 무엇인가?"를 묻는 것
+## 12. 마무리
 
 **좋은 설계란:**
 - 변경에 유연하고
