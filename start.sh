@@ -12,5 +12,5 @@ echo ""
 echo "종료하려면 Ctrl+C를 누르세요"
 echo ""
 
-bundle exec jekyll serve --livereload
+lsof -ti:4000 | xargs kill -9 && bundle exec jekyll serve --livereload
 
