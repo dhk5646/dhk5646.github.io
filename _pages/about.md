@@ -7,70 +7,51 @@ toc_label: "목차"
 toc_sticky: true
 ---
 
-## 👋 안녕하세요, 동구리입니다
+## 안녕하세요, 백엔드 개발자 동구리입니다
 
-**Java / Spring 기반 백엔드 개발자**로, 안정적이고 확장 가능한 시스템을 설계하고 구현하는것을 좋아합니다.
+**"실무에서 마주친 문제를 기술로 해결하는 과정"**을 기록하는 개발자입니다.
 
----
-
-## 💼 핵심 역량
-
-### Backend Development
-- **Java & Spring Framework** 기반의 RESTful API 설계 및 개발
-- **JPA/Hibernate**를 활용한 효율적인 데이터 처리
-
-### Infrastructure & DevOps
-- **AWS** 클라우드 인프라 구축 및 운영
-- **Jenkins**를 통한 CI/CD 파이프라인 구축
-- **Docker** 기반 컨테이너화
-
-### Database
-- **PostgreSQL, MySQL** 설계 및 최적화
-- 쿼리 성능 튜닝 및 인덱스 설계
+Java/Spring 기반 백엔드 개발자로, 단순히 코드를 작성하는 것을 넘어 **"왜 이 문제가 발생했는가?"**와 **"어떻게 근본적으로 해결할 것인가?"**를 고민합니다.
 
 ---
 
-## 🎯 개발 철학
+## 개발 철학
 
-### 함께 일하고 싶은 개발자
-- **배려심**: 코드 리뷰와 협업에서 상대방을 존중합니다
-- **책임감**: 맡은 일은 끝까지 완수하고, 문제가 생기면 함께 해결합니다
-- **긍정적인 태도**: 어려운 상황에서도 해결책을 찾아갑니다
+### 문제 해결 중심 사고
 
-### 지속 가능한 개발
-- **클린 코드**: 읽기 쉽고 유지보수하기 좋은 코드를 작성합니다
-- **문서화**: 기술 블로그를 통해 배운 내용을 정리하고 공유합니다
-- **지속적인 학습**: 새로운 기술과 트렌드를 꾸준히 학습합니다
+코드는 문제를 해결하기 위한 수단입니다. 표면적인 증상이 아닌, 근본 원인을 찾아 구조적으로 해결하려고 노력합니다.
+
+### 경험을 기록으로
+
+실무에서 겪은 장애, 성능 이슈, 설계 고민들을 블로그에 정리합니다. 같은 문제로 고민하는 누군가에게 도움이 되길 바랍니다.
+
+### 함께 성장하는 개발자
+
+코드 리뷰, 기술 공유, 문서화를 통해 팀과 함께 성장하려고 노력합니다. 좋은 코드는 혼자가 아닌 함께 만들어간다고 믿습니다.
 
 ---
 
-## 🛠️ Tech Stack
+## 기술 스택
 
 **Backend**
-- Java, Spring Boot, Spring MVC, Spring Data JPA
-- RESTful API
+- Java, Spring Boot, Spring MVC, Spring Data JPA, Spring Batch
+- RESTful API, WebSocket (STOMP)
+- OAuth 2.0, JWT
 
-**Database**
-- PostgreSQL, MariaDB, MySQL
+**Database & Cache**
+- MySQL, PostgreSQL
+- Redis (Cache, Stream)
+- JPA/Hibernate, Query Optimization
 
-**Infrastructure**
-- AWS (EC2, Lambda, CloudWatch)
+**Infrastructure & DevOps**
 - Docker, Jenkins
+- AWS (EC2, RDS, S3)
 - Linux, Nginx
+- Scouter APM
 
-**Frontend**
-- JavaScript, HTML/CSS
-
-**Tools**
-- Git/GitHub
-- IntelliJ IDEA
-
----
-
-## 📝 Blog
-
-이 블로그는 개발하면서 경험한 문제 해결 과정과 학습 내용을 기록합니다.
+**Monitoring & Security**
+- SSL/TLS, Certificate Management
+- Log Management, APM
+- ISMS-P 인증 대응
 
 ---
-
-> 모두에게 도움이 되는 개발자, 함께 성장하는 것을 지향합니다.
