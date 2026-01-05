@@ -1,5 +1,5 @@
 ---
-title: "데이터는 있는데 처리가 안 됐다? - Redis Stream으로 해결한 장애 이야기"
+title: "데이터는 있는데 처리가 안 됐다구요? - Redis Stream으로 해결한 장애 이야기"
 categories: backend
 tags: [redis, stream, message-queue, data-consistency, async]
 excerpt: "배치-API 간 비동기 통신에서 발생한 데이터 유실 문제를 Redis Stream으로 해결한 경험"
