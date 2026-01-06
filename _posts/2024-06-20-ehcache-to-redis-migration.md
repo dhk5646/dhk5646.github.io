@@ -2,7 +2,7 @@
 title: "Ehcache에서 Redis로 전환: 이중화 환경에서 캐시 동기화 문제 해결"
 categories: redis
 tags: [redis, cache, ehcache, distributed-system, synchronization, pub-sub]
-ecerpt: "이중화된 서버 환경에서 로컬 캐시의 동기화 문제를 Redis 중앙 캐시로 전환하여 해결하고, 데이터 일관성을 확보한 실전 사례"
+excerpt: "이중화된 서버 환경에서 로컬 캐시의 동기화 문제를 Redis 중앙 캐시로 전환하여 해결하고, 데이터 일관성을 확보한 실전 사례"
 ---
 
 ## 들어가며
